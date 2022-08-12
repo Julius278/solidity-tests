@@ -46,6 +46,33 @@
 			},
 			{
 				"inputs": [],
+				"name": "classQuality",
+				"outputs": [
+					{
+						"internalType": "enum Class.Quality",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setQualityToBad",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setQualityToGood",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "teacher",
 				"outputs": [
 					{
@@ -96,11 +123,11 @@
 	},
 	"sources": {
 		"contracts/structs.sol": {
-			"keccak256": "0xeb2eefd7ad0bd55a549ae1ef860da7b1e2b6ae39a3e29c2fa982bd36935c1715",
+			"keccak256": "0x336cb914fbb549bf1a5b10143ebfefd13f1744508e17353a1354cfc73de737fd",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://699f6e79db92a19602025994f421b38cf7239da6728928ea0159f718d9ecf088",
-				"dweb:/ipfs/Qmb7DYtHCNPBULAUTpToJQhWJrjHGh4rk5q9Ufn7U2But6"
+				"bzz-raw://45ff0a71110882f7986ed0469e308e6cb9e52766235d1d8b8f713d935d6abe6b",
+				"dweb:/ipfs/QmXuY5283n3QFzZ86XfRV1YfRQiRRJF39dMStGEbYcm23f"
 			]
 		}
 	},

@@ -11,6 +11,9 @@ struct Teacher{
 contract Class {
     Teacher public teacher;
 
+    enum Quality {Good, Ok, Bad}
+    Quality public classQuality = Quality.Good;
+
     constructor(string memory _name, uint _age){
         teacher.name = _name;
         teacher.age = _age;
@@ -18,12 +21,21 @@ contract Class {
     }
 
     function changeTeacher(string memory _name, uint _age, address _addr) public{
-        Teacher memory nTeacher = Teacher({
-            name: _name,
-            age: _age,
-            addr: _addr
-        });
+        if(classQuality == Quality.Bad){
+            Teacher memory nTeacher = Teacher({
+                name: _name,
+                age: _age,
+                addr: _addr
+            });
+            teacher = nTeacher;
+        }
+    }
 
-        teacher = nTeacher;
+    function setQualityToBad() public{
+        classQuality = Quality.Bad;
+    }
+
+    function setQualityToGood() public{
+        classQuality = Quality.Good;
     }
 }
