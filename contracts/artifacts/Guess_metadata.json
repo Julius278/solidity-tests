@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_guess",
+						"type": "string"
+					}
+				],
+				"name": "addGuess",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "guesses",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/mappings.sol": "Guess"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/mappings.sol": {
+			"keccak256": "0xf5cfb01ca1558f3dd8b570d1b4837454c8887a6c7ce22bfeddb983a969246778",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://b9f870c57073fe9bbaf61f1c2dc7ad6d02ef309ae8d6e05278c455f8e4c4ce4f",
+				"dweb:/ipfs/QmX7daw7kufgk2TVoCbWaaHmjcaN99GTHAAv7fMib8pGPj"
+			]
+		}
+	},
+	"version": 1
+}
