@@ -6,6 +6,11 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
 				"stateMutability": "payable",
 				"type": "fallback"
 			},
@@ -17,6 +22,19 @@
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -86,11 +104,11 @@
 	},
 	"sources": {
 		"contracts/eth_store.sol": {
-			"keccak256": "0xc151aa271b3863a8f8700d52a7c5e82a3f2ff92f71dc27a236ada5b250c898c4",
+			"keccak256": "0x6e84aaf59baedcaa481d7e16ad899c142dedf0a16fc64a856700e6293e45a406",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://13ac9c3b4d592215db4a3897fc2ba9beefb4ab4cf3b25f589fc8101b9fcfea8f",
-				"dweb:/ipfs/QmchWdMi5TXZYoUeNuvNKGtL1saMGhPaNfEznToSZmMHoc"
+				"bzz-raw://5f7b056ee2e3f8869c06a393790cca1e7b0ea78fc9aac0debd530b04fca92ea8",
+				"dweb:/ipfs/QmS1VBEYqmCnJWdE6VLZWKxcbUY2c3CxdQv5mN3NiGjM4X"
 			]
 		}
 	},
