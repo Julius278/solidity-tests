@@ -7,12 +7,25 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "x",
+				"name": "changeTokens",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "tokens",
 				"outputs": [
 					{
-						"internalType": "int256",
+						"internalType": "string",
 						"name": "",
-						"type": "int256"
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -32,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/visibility_challenge.sol": "A"
+			"contracts/mem_vs_storage.sol": "MyTokens"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -46,12 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/visibility_challenge.sol": {
-			"keccak256": "0x8347077b46de2f3fd8525addb85af5acabf495e37b376503dc801e24e5233f21",
+		"contracts/mem_vs_storage.sol": {
+			"keccak256": "0xd5fcbef7b3b8694eb1c18c99e1e253c103deebda5507182e14aaadddfc436ce9",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://e0978fc0dd1dfd357d008b5eb3de9ff2ac243cb0a111f192b1d8ce387945d7bd",
-				"dweb:/ipfs/QmQQvpMH5f1nrPdQeTCwQehqGfmByuhofdHJxsdhCcsTYE"
+				"bzz-raw://c82b34cf06999a075cfc6f945d3654d284dfcc3fe84981f2f418510636e1aa76",
+				"dweb:/ipfs/QmehtLDMgLpbRxDnnVx7xhmhSCY87kqeXZu3jTKyxFgNT1"
 			]
 		}
 	},
