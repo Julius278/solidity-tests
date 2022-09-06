@@ -40,4 +40,20 @@ contract Loops {
             }
         }
     }
+
+    function doWhileLoopNumbers(uint number, uint amount) public {
+        require(amount > 0, "amount has to be greater than zero");
+        bool check = true;
+
+        uint i = 0;
+
+        // calls the function in the do{} at least once
+        do{
+            emit Number(block.timestamp, msg.sender, number, i);
+            i++;
+            if(amount == 0 || i == amount){
+                check = true;
+            }
+        } while(!check);
+    }
 }

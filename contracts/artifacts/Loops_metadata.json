@@ -49,6 +49,24 @@
 						"type": "uint256"
 					}
 				],
+				"name": "doWhileLoopNumbers",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "number",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
 				"name": "showNumbers",
 				"outputs": [],
 				"stateMutability": "nonpayable",
@@ -119,11 +137,11 @@
 	},
 	"sources": {
 		"contracts/loops.sol": {
-			"keccak256": "0x8817b5bd07573eb1fb814633fab4e1a6672929cd60a2db0730c4b5a46016ff93",
+			"keccak256": "0x2d08ddfd3871b54497fdde317ef2ba6225dbe81a3e2b219ae68e0827fd32ca62",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://51b12318993da1447bd166edbbcb52f3e878807f5250cf784482b5dd86920dc7",
-				"dweb:/ipfs/QmS1zyRweMnnM6sqkkEQfWoB6Nfti2v1t2gCExTT9fjyAg"
+				"bzz-raw://ea55b8520b7c22a8519674cba8f445fee67e537e16e2f841b8ee8bb03d1d6051",
+				"dweb:/ipfs/Qmbyfy3gP2qut7w7VHLxaysFr79ajD3XcV5xms247f9hPY"
 			]
 		}
 	},
