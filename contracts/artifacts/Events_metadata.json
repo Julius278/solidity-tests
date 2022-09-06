@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "uint256",
+						"name": "date",
+						"type": "uint256"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "sender",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "number",
+						"type": "uint256"
+					}
+				],
+				"name": "Address_info",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "emit_event",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/events.sol": "Events"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/events.sol": {
+			"keccak256": "0x4fafa30e1a2d1bbc99d9d6e6277b187c543e7ba8b389c297f1f3312b46576ba4",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://f4cb47466d886faeae2d8ad069fd2e9a3f6f49567cc1b59db7626545ff930777",
+				"dweb:/ipfs/QmNSnCFNCRBUzG1jNbGPownCw9zwcbq9vKL2qdJDr2iEuV"
+			]
+		}
+	},
+	"version": 1
+}
