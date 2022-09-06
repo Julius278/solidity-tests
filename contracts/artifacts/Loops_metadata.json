@@ -25,6 +25,12 @@
 						"internalType": "uint256",
 						"name": "number",
 						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "i",
+						"type": "uint256"
 					}
 				],
 				"name": "Number",
@@ -44,6 +50,24 @@
 					}
 				],
 				"name": "showNumbers",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "number",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "showNumbersWithBreak",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -77,11 +101,11 @@
 	},
 	"sources": {
 		"contracts/loops.sol": {
-			"keccak256": "0x0e6576d4a4ae555ebb4ec63101e53970481691f43c2d6dc9fd83c6c434ab7653",
+			"keccak256": "0x74a2761ca776a148942d7f5f7e504d5e184eb6d509f6864d7cad8980a4fe8b8d",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://d57e6768b176739d621389d3c9627f25a58587b050e6ef50b45f198ab3066e45",
-				"dweb:/ipfs/QmTL2kgVdHTCT3tuWnbodnCSuLdqgb6QSTqezzQFEz9km9"
+				"bzz-raw://a8ec9f81fcac541c863389ce9b7978e25db2eac1ffdaf1152f3f1a06c4f5efee",
+				"dweb:/ipfs/QmTykUTfivRqnogfhNyPrrvHYXD9mLE58pZCn42qhq5HoW"
 			]
 		}
 	},
