@@ -28,5 +28,12 @@ contract DynamicArray{
             numbers.pop();
         }
     }
+
+    // deletes a specific index in the array
+    function deleteNumber(uint _index) public {
+        if(numbers.length > _index){
+            delete numbers[_index];
+        }
+    }
     
 }

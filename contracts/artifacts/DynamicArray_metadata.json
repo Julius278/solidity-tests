@@ -13,6 +13,19 @@
 						"type": "uint256"
 					}
 				],
+				"name": "deleteNumber",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
 				"name": "getElement",
 				"outputs": [
 					{
@@ -105,11 +118,11 @@
 	},
 	"sources": {
 		"contracts/dynamic_array.sol": {
-			"keccak256": "0xb54408a61c370cf0bab61c76cb0e50c9f4a2f5c29cee9defc18de8496afcfc95",
+			"keccak256": "0xcfa099c966ccc202cbce78a62af2c85713f45576c0d94c11559182e40ee62d58",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://ff9cc405bbc4a13677a828890d0b0bbdbd96ff0d4e76e01efecc4abbf6e6c036",
-				"dweb:/ipfs/QmfGsdBaTDUkf4LY1j4saFZGBaxskjtcG94cdkMqBzAM4m"
+				"bzz-raw://3cdd5bbee4bc324d55aeb29c5d265e6a278a234cd551f159e57aa179e4210082",
+				"dweb:/ipfs/QmP1UkcDGrtHNgxKWL9NLSJychVQqqrfWCdMWUEM6U8NFb"
 			]
 		}
 	},
