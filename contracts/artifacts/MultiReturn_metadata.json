@@ -1,0 +1,69 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "start",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/multi_return.sol": "MultiReturn"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/multi_return.sol": {
+			"keccak256": "0x762bfab41a7ad139179109295862642e9586aeb850376a907815f6e489e6ad76",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://c716e7778e2f803a61af68482890ba0b95eb2e4e06dc1002167b2d0a377df284",
+				"dweb:/ipfs/QmQQgVS3wGcJFSo9NrgpTj3bdETM7JHeptiYCGWXoR3Bdu"
+			]
+		}
+	},
+	"version": 1
+}
