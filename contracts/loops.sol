@@ -26,4 +26,18 @@ contract Loops {
             emit Number(block.timestamp, msg.sender, number, i);
         }
     }
+
+    function whileLoopNumbers(uint number, uint amount) public {
+        bool check = false;
+        
+        uint i = 0;
+
+        while(!check){
+            emit Number(block.timestamp, msg.sender, number, i);
+            i++;
+            if(i == amount){
+                check = true;
+            }
+        }
+    }
 }

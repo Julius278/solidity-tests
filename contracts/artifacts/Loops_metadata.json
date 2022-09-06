@@ -71,6 +71,24 @@
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "number",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "whileLoopNumbers",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -101,11 +119,11 @@
 	},
 	"sources": {
 		"contracts/loops.sol": {
-			"keccak256": "0x74a2761ca776a148942d7f5f7e504d5e184eb6d509f6864d7cad8980a4fe8b8d",
+			"keccak256": "0x8817b5bd07573eb1fb814633fab4e1a6672929cd60a2db0730c4b5a46016ff93",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://a8ec9f81fcac541c863389ce9b7978e25db2eac1ffdaf1152f3f1a06c4f5efee",
-				"dweb:/ipfs/QmTykUTfivRqnogfhNyPrrvHYXD9mLE58pZCn42qhq5HoW"
+				"bzz-raw://51b12318993da1447bd166edbbcb52f3e878807f5250cf784482b5dd86920dc7",
+				"dweb:/ipfs/QmS1zyRweMnnM6sqkkEQfWoB6Nfti2v1t2gCExTT9fjyAg"
 			]
 		}
 	},
